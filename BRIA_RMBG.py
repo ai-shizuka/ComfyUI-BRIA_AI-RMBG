@@ -25,6 +25,7 @@ def resize_image(image):
 
 class BRIA_RMBG_ModelLoader_Zho:
     def __init__(self):
+        folder_paths.folder_names_and_paths["bria"] = ([os.path.join(folder_paths.models_dir, "bria")], folder_paths.supported_pt_extensions)
         pass
 
     @classmethod
